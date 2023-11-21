@@ -1,0 +1,795 @@
+[{
+  "_id": {
+    "$oid": "655a1c57b9d36fd7e4e82c4b"
+  },
+  "ten": "940ffd7e-eff2-40e5-9eb3-7832802ee9b7_hori2.png",
+  "path": "public/images/db9da6ad9212f9a51aa1873a3e0dbb9f",
+  "createdAt": {
+    "$date": "2023-11-19T14:31:51.856Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-19T14:31:51.856Z"
+  },
+  "id": 1000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655a1c69b9d36fd7e4e82c52"
+  },
+  "ten": "6f7125e9c031e7536e241f1b10c46191_9200840184634569245.png",
+  "path": "public/images/4a0655434598e139e66d155eafb30924",
+  "createdAt": {
+    "$date": "2023-11-19T14:32:09.330Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-19T14:32:09.330Z"
+  },
+  "id": 1001,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca459d8a73120786e51a2"
+  },
+  "ten": "rx-77-02_guncannon_cucuruz_doan_s_island_ver._hguc_a6ad68a3dd194d62bc5f9c86c3dc79d9_master.jpg",
+  "path": "public/images/de8fbabd8c90cc5bcb6e1e4ba4471ada",
+  "createdAt": {
+    "$date": "2023-11-21T12:36:41.906Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:36:41.906Z"
+  },
+  "id": 1013,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca577d8a73120786e51dc"
+  },
+  "ten": "demi_barding_hg_gundam_d13d68cf80ee4c80a96e3ffa036a44c4_grande.png",
+  "path": "public/images/d53b238cc0446fbf3cb8b7cdc08ada34",
+  "createdAt": {
+    "$date": "2023-11-21T12:41:27.741Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:41:27.741Z"
+  },
+  "id": 1016,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca5eed8a73120786e51ec"
+  },
+  "ten": "custom_robot_demi_barding_hg_gundam_bc5985884baf4e35a78eec1016a737e1_grande.png",
+  "path": "public/images/991a886dea6bd2daace7a48889f65c8c",
+  "createdAt": {
+    "$date": "2023-11-21T12:43:26.684Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:43:26.684Z"
+  },
+  "id": 1017,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca5f1d8a73120786e51f0"
+  },
+  "ten": "danh_gia_demi_barding_hg_gundam_dep_nhat_bd9a236aef3e4242ac78316c762a18ae_grande.png",
+  "path": "public/images/5fb0db251b650d58d91513b72313c433",
+  "createdAt": {
+    "$date": "2023-11-21T12:43:29.229Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:43:29.229Z"
+  },
+  "id": 1018,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca5f3d8a73120786e51f4"
+  },
+  "ten": "demi_barding_hg_gundam_chat_luong_cao_810b9e32105044239edcfa4dd74d5225_grande.png",
+  "path": "public/images/f97a6795af38e361d6d85ecc267175b8",
+  "createdAt": {
+    "$date": "2023-11-21T12:43:31.385Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:43:31.385Z"
+  },
+  "id": 1019,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca5f6d8a73120786e51f8"
+  },
+  "ten": "huong_dan_rap_demi_barding_hg_gundam_981c86358f9a4d2cbdafb661a90fc608_grande.png",
+  "path": "public/images/9819ba39d99e79018c960b36ebf56ed7",
+  "createdAt": {
+    "$date": "2023-11-21T12:43:34.147Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:43:34.147Z"
+  },
+  "id": 1020,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca5f8d8a73120786e51fc"
+  },
+  "ten": "review_demi_barding_hg_gundam_0cebb9d2f4a94d0aa7a708e85b77701e_grande.png",
+  "path": "public/images/f94285ee9a0ffc3034a45ce0178cf4dc",
+  "createdAt": {
+    "$date": "2023-11-21T12:43:36.720Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:43:36.720Z"
+  },
+  "id": 1021,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca652d8a73120786e5205"
+  },
+  "ten": "_gia_rx-77-02_guncannon_cucuruz_doan_s_island_ver_hguc_gundam_dep_nhat_f9f074e6f6434b51b3d6159cda3239a8_grande.png",
+  "path": "public/images/78cca04d0d50eebb0169e17ede53f8b5",
+  "createdAt": {
+    "$date": "2023-11-21T12:45:06.215Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:45:06.215Z"
+  },
+  "id": 1022,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca654d8a73120786e5209"
+  },
+  "ten": "custom_robot_rx-77-02_guncannon_cucuruz_doan_s_island_ver_hguc_gundam_b21404f32585453c943048dea4f59ffc_grande.png",
+  "path": "public/images/64071ade336a4efe14abdbd9f8051ac6",
+  "createdAt": {
+    "$date": "2023-11-21T12:45:08.685Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:45:08.685Z"
+  },
+  "id": 1023,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca668d8a73120786e521f"
+  },
+  "ten": "thi_robot_ban_rx-77-02_guncannon_cucuruz_doan_s_island_ver_hguc_gundam_df4df1e850bb4bf3bbe8d30a3225081c_grande.png",
+  "path": "public/images/0b3df97fc473a6f74ae39105eddc9261",
+  "createdAt": {
+    "$date": "2023-11-21T12:45:28.141Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:45:28.141Z"
+  },
+  "id": 1027,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca66bd8a73120786e5223"
+  },
+  "ten": "uy_bien_robot_rx-77-02_guncannon_cucuruz_doan_s_island_ver_hguc_gundam_94c4f77486e64c86ab23ed159da76342_grande.png",
+  "path": "public/images/c96425432a75bc7243dcaf11c319ec6a",
+  "createdAt": {
+    "$date": "2023-11-21T12:45:31.007Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:45:31.007Z"
+  },
+  "id": 1028,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca6fed8a73120786e5249"
+  },
+  "ten": "gundam_lfrith_thorn_hg_5c5e8642663b4973b38c55db5d611d5d_master.png",
+  "path": "public/images/40d242e63fe28ad44c085a4a66d03b09",
+  "createdAt": {
+    "$date": "2023-11-21T12:47:58.701Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:47:58.701Z"
+  },
+  "id": 1031,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca702d8a73120786e524f"
+  },
+  "ten": "danh_gia_gundam_lfrith_thorn_hg_dep_nhat_699f963fd6594de3a81d1847cbb7d8c6_grande.png",
+  "path": "public/images/36e68ac55e18a5283065e18505161e81",
+  "createdAt": {
+    "$date": "2023-11-21T12:48:02.549Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:48:02.549Z"
+  },
+  "id": 1032,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca704d8a73120786e5253"
+  },
+  "ten": "gundam_lfrith_thorn_hg_chat_luong_cao_f027a784a78f4d35a8e71b6af7766eea_grande.png",
+  "path": "public/images/49044c164e82bf3ae3e06d77debc5442",
+  "createdAt": {
+    "$date": "2023-11-21T12:48:04.508Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:48:04.508Z"
+  },
+  "id": 1033,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca707d8a73120786e5257"
+  },
+  "ten": "huong_dan_rap_gundam_lfrith_thorn_hg_68dcb33584a445dba205d8ced66d97a8_grande.png",
+  "path": "public/images/c6d854405c0b5a8f476d2bf850c1f573",
+  "createdAt": {
+    "$date": "2023-11-21T12:48:07.175Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:48:07.175Z"
+  },
+  "id": 1034,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca709d8a73120786e525b"
+  },
+  "ten": "review_gundam_lfrith_thorn_hg_f6f90d3c8f1f4aaebbc25e70cf9f636e_grande.png",
+  "path": "public/images/8b5bcc79542ffc23b7c8666c07fa030a",
+  "createdAt": {
+    "$date": "2023-11-21T12:48:09.212Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:48:09.212Z"
+  },
+  "id": 1035,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca770d8a73120786e5267"
+  },
+  "ten": "gundam_g-self_perfect_pack_hg_f6ae75b0e433441992c8f68d963dd817_grande_5e7c817885d14bd6929a371ab0dc5b44_master.jpg",
+  "path": "public/images/8b04b1d59060d9743790de22c8e1b0ae",
+  "createdAt": {
+    "$date": "2023-11-21T12:49:52.372Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:49:52.372Z"
+  },
+  "id": 1036,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca797d8a73120786e526b"
+  },
+  "ten": "figure_full_armor_gundam_thunderbolt_anime_hg_nshop_grande.png",
+  "path": "public/images/465b232d8a55a642f3659adbf9f20079",
+  "createdAt": {
+    "$date": "2023-11-21T12:50:31.668Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:50:31.668Z"
+  },
+  "id": 1037,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca799d8a73120786e526f"
+  },
+  "ten": "full_armor_gundam_thunderbolt_anime_hg_bandai_grande.png",
+  "path": "public/images/1f8586442407ba8e1cd7f6895acd071c",
+  "createdAt": {
+    "$date": "2023-11-21T12:50:33.445Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:50:33.445Z"
+  },
+  "id": 1038,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca79bd8a73120786e5273"
+  },
+  "ten": "full_armor_gundam_thunderbolt_anime_hg_chat_luong_grande.png",
+  "path": "public/images/9cae4429b1f51694702c96c89a1c2f81",
+  "createdAt": {
+    "$date": "2023-11-21T12:50:35.468Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:50:35.468Z"
+  },
+  "id": 1039,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca79ed8a73120786e5277"
+  },
+  "ten": "mo_hinh_full_armor_gundam_thunderbolt_anime_hg_nhat.png",
+  "path": "public/images/0b64683a6955afa8dc6ae14d0de5f634",
+  "createdAt": {
+    "$date": "2023-11-21T12:50:38.077Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:50:38.077Z"
+  },
+  "id": 1040,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca79fd8a73120786e527b"
+  },
+  "ten": "mua_full_armor_gundam_thunderbolt_anime_hg_chinh_hang_grande.png",
+  "path": "public/images/441dbe3cc5a6c84f2616a85cccc91c8a",
+  "createdAt": {
+    "$date": "2023-11-21T12:50:39.998Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:50:39.998Z"
+  },
+  "id": 1041,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca7a2d8a73120786e527f"
+  },
+  "ten": "mua_full_armor_gundam_thunderbolt_anime_hg_viet_nam_hcm.png",
+  "path": "public/images/0a94ed48dda59656b7367e16f7af2ff5",
+  "createdAt": {
+    "$date": "2023-11-21T12:50:42.443Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:50:42.443Z"
+  },
+  "id": 1042,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca80bd8a73120786e52a4"
+  },
+  "ten": "msn-06s_sinanju_titanium_finish_hguc_gundam_21f951ad717f42449d28dd06d53319db_master.png",
+  "path": "public/images/038c17dd1b741375f7c21fedec8169ee",
+  "createdAt": {
+    "$date": "2023-11-21T12:52:27.706Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:52:27.706Z"
+  },
+  "id": 1043,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca825d8a73120786e52a8"
+  },
+  "ten": "review_msn-06s_sinanju_titanium_finish_hguc_gundam_1d9a69745cc24cd4a89495c476007315_grande.png",
+  "path": "public/images/c86dcfab7e1aa30a407df7fad53fcc3a",
+  "createdAt": {
+    "$date": "2023-11-21T12:52:53.333Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:52:53.333Z"
+  },
+  "id": 1044,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca827d8a73120786e52ac"
+  },
+  "ten": "shop_gunpla_ban_msn-06s_sinanju_titanium_finish_hguc_gundam_5f66e875bffe45ea8a6e7afca28eafee_grande.png",
+  "path": "public/images/b58d5db62259949b84039c36b7d66760",
+  "createdAt": {
+    "$date": "2023-11-21T12:52:55.375Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:52:55.375Z"
+  },
+  "id": 1045,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca829d8a73120786e52b0"
+  },
+  "ten": "sieu_thi_robot_ban_msn-06s_sinanju_titanium_finish_hguc_gundam_d2221f89c2254478921b78aa12ca03d5_grande.png",
+  "path": "public/images/6e283f4ebc44740a840635a0ad3f3ccd",
+  "createdAt": {
+    "$date": "2023-11-21T12:52:57.436Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:52:57.436Z"
+  },
+  "id": 1046,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca882d8a73120786e52bc"
+  },
+  "ten": "gundam_aerial_hg_gundam_the_witch_from_mercury_7025a68bd4af458cbdb81859b3cfdd5a_master.png",
+  "path": "public/images/2681264f706cd5eaf0a0e9c32b8e8fa1",
+  "createdAt": {
+    "$date": "2023-11-21T12:54:26.831Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:54:26.831Z"
+  },
+  "id": 1047,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca8b2d8a73120786e52c0"
+  },
+  "ten": "cach_son_mo_hinh_gundam_aerial_hg_92342f5c1bc94299a97ed6ac5311723b_grande.png",
+  "path": "public/images/b3c514e695a9e0253acc7e4e398a2eb8",
+  "createdAt": {
+    "$date": "2023-11-21T12:55:14.255Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:55:14.255Z"
+  },
+  "id": 1048,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca8b4d8a73120786e52c4"
+  },
+  "ten": "custom_robot_gundam_aerial_hg_4e54933cfd524591b9a8c4398af8cdfc_grande.png",
+  "path": "public/images/532d595e96ada67f611215acf0f37ebe",
+  "createdAt": {
+    "$date": "2023-11-21T12:55:16.115Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:55:16.115Z"
+  },
+  "id": 1049,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca8b6d8a73120786e52c8"
+  },
+  "ten": "danh_gia_gundam_aerial_hg_dep_nhat_acda64d3d5d94072a80f0a05f21448a6_grande.png",
+  "path": "public/images/ef61ab7808a929394decc12874d0c538",
+  "createdAt": {
+    "$date": "2023-11-21T12:55:18.131Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:55:18.131Z"
+  },
+  "id": 1050,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca8b9d8a73120786e52cc"
+  },
+  "ten": "gundam_aerial_hg_chat_luong_cao_57273a5fe2e647828a6961bbe004b13b_grande.png",
+  "path": "public/images/7684fd208abc42a10f2092a0b782f441",
+  "createdAt": {
+    "$date": "2023-11-21T12:55:21.386Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:55:21.386Z"
+  },
+  "id": 1051,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca8bed8a73120786e52d0"
+  },
+  "ten": "huong_dan_rap_gundam_aerial_hg_91fb113430014ffb90f823678bbe0e66_grande.png",
+  "path": "public/images/70f7e3069c62c95a6b29d4ac9e8841d9",
+  "createdAt": {
+    "$date": "2023-11-21T12:55:26.881Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:55:26.881Z"
+  },
+  "id": 1052,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca8c0d8a73120786e52d4"
+  },
+  "ten": "tuy_bien_mo_hinh_gundam_aerial_hg_ac2aed8986584fdbac962f4c59c3c7b4_grande.png",
+  "path": "public/images/2e05bf4872248195a64b6e518b21d026",
+  "createdAt": {
+    "$date": "2023-11-21T12:55:28.729Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:55:28.729Z"
+  },
+  "id": 1053,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca901d8a73120786e52e0"
+  },
+  "ten": "unicorn_gundam_03_phenex_unicorn_mode_narrative_ver._gold_coating_hguc_01d485198fdd4f33824dda062312c883_master.jpg",
+  "path": "public/images/d368283166e6390394603cf870a683a1",
+  "createdAt": {
+    "$date": "2023-11-21T12:56:33.343Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:56:33.343Z"
+  },
+  "id": 1054,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca927d8a73120786e52e4"
+  },
+  "ten": "03_phenex_unicorn_mode_narrative_ver.png",
+  "path": "public/images/a261754030da7d2bb593bf8c752c0683",
+  "createdAt": {
+    "$date": "2023-11-21T12:57:11.006Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:57:11.006Z"
+  },
+  "id": 1055,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca928d8a73120786e52e8"
+  },
+  "ten": "aunicorn_gundam_03_phenex_unicorn_mode_narrative_ver.png",
+  "path": "public/images/91da8d17c7b222d221643170adcaf1e5",
+  "createdAt": {
+    "$date": "2023-11-21T12:57:12.919Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:57:12.919Z"
+  },
+  "id": 1056,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca92ad8a73120786e52ec"
+  },
+  "ten": "bunicorn_gundam_03_phenex_unicorn_mode_narrative_ver.png",
+  "path": "public/images/7227194e0c9ba6882eaf2954d1ed0bd6",
+  "createdAt": {
+    "$date": "2023-11-21T12:57:14.680Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:57:14.680Z"
+  },
+  "id": 1057,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca92dd8a73120786e52f0"
+  },
+  "ten": "unicorn_gundam_03_phenex_unicorn_mode_narrative_ver.png",
+  "path": "public/images/e595557bc5ef45dd006f4414eebf163c",
+  "createdAt": {
+    "$date": "2023-11-21T12:57:17.606Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:57:17.606Z"
+  },
+  "id": 1058,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca99ed8a73120786e52fc"
+  },
+  "ten": "ymf-x000a_dreadnought_gundam_x_astray_hg_bf6005d5eaa149728c480c1c3f577189_master.png",
+  "path": "public/images/80fbb04d65d08b25b68d2db7f9d658a4",
+  "createdAt": {
+    "$date": "2023-11-21T12:59:10.341Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:59:10.341Z"
+  },
+  "id": 1059,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca9b8d8a73120786e5300"
+  },
+  "ten": "mo_hinh_ymf-x000a_dreadnought_gundam_x_astray_hg_nhat_ban_2eb5d8f6d426424e872a910985fc5918.png",
+  "path": "public/images/d4fe9d2b54227ca66b54baef8b4e0fd9",
+  "createdAt": {
+    "$date": "2023-11-21T12:59:36.468Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:59:36.468Z"
+  },
+  "id": 1060,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca9bbd8a73120786e5304"
+  },
+  "ten": "review_ymf-x000a_dreadnought_gundam_x_astray_hg_51ecb01ee2ef4278821b445c39b73486_grande.png",
+  "path": "public/images/ed0887ed09f270a11cfbe472ee3a9ed1",
+  "createdAt": {
+    "$date": "2023-11-21T12:59:39.010Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:59:39.010Z"
+  },
+  "id": 1061,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655ca9bdd8a73120786e5308"
+  },
+  "ten": "sieu_thi_robot_ymf-x000a_dreadnought_gundam_x_astray_hg_bd38461c27df492bb78f6dec32789933_grande.png",
+  "path": "public/images/2d5e5d5953e0ae9d5fbcf211404f5a39",
+  "createdAt": {
+    "$date": "2023-11-21T12:59:41.306Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T12:59:41.306Z"
+  },
+  "id": 1062,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655caa2dd8a73120786e5314"
+  },
+  "ten": "gundam_barbatos_hg_bandai_26d8dee9607a4e7abbba3bcbd1d8c172_master.png",
+  "path": "public/images/5df463e356c6a001c04395a7893e5aaa",
+  "createdAt": {
+    "$date": "2023-11-21T13:01:33.288Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T13:01:33.288Z"
+  },
+  "id": 1063,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655caa53d8a73120786e5318"
+  },
+  "ten": "gundam_barbatos_hg__1144_grande.png",
+  "path": "public/images/0fb9742ce70faaac102f6924ea7fe43b",
+  "createdAt": {
+    "$date": "2023-11-21T13:02:11.100Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T13:02:11.100Z"
+  },
+  "id": 1064,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655caa55d8a73120786e531c"
+  },
+  "ten": "gundam_barbatos_hg__1144_nshop_grande.png",
+  "path": "public/images/e84bdebb7cb1d3b64acdc0ce6c8f7ddd",
+  "createdAt": {
+    "$date": "2023-11-21T13:02:13.668Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T13:02:13.668Z"
+  },
+  "id": 1065,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655caa58d8a73120786e5320"
+  },
+  "ten": "gundam_barbatos_hg__1144_nshop_vietnam_grande.png",
+  "path": "public/images/da42642ece63c0497cfb8ddd1f3d96e2",
+  "createdAt": {
+    "$date": "2023-11-21T13:02:16.323Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T13:02:16.323Z"
+  },
+  "id": 1066,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655caa5bd8a73120786e5324"
+  },
+  "ten": "gundam_barbatos_hg__1144_shop_grande.png",
+  "path": "public/images/9942ea14609ac7335d0386d53046cd0e",
+  "createdAt": {
+    "$date": "2023-11-21T13:02:19.280Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T13:02:19.280Z"
+  },
+  "id": 1067,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655caa5ed8a73120786e5328"
+  },
+  "ten": "gundam_barbatos_hg__1144_shop_vietnam_grande.png",
+  "path": "public/images/423d216d9a61e806ff3ceca856f4b989",
+  "createdAt": {
+    "$date": "2023-11-21T13:02:22.575Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T13:02:22.575Z"
+  },
+  "id": 1068,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655caab4d8a73120786e533a"
+  },
+  "ten": "m1_astray__hg_hg_762d302f766e4dfe8a2d6e9b999cc570_master.png",
+  "path": "public/images/a7c7d4be559b38ee1203392d877b5c1e",
+  "createdAt": {
+    "$date": "2023-11-21T13:03:48.714Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T13:03:48.714Z"
+  },
+  "id": 1070,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655caac8d8a73120786e533e"
+  },
+  "ten": "gunpla_shop_ban_m1_astray_gundam_hg_179ed6fff10b4b68b6d09808250b7024_grande.png",
+  "path": "public/images/1b1f9ec7a4e2563367695628d20f9a9d",
+  "createdAt": {
+    "$date": "2023-11-21T13:04:08.664Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T13:04:08.664Z"
+  },
+  "id": 1071,
+  "__v": 0
+}]

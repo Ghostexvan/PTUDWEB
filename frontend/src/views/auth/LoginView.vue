@@ -6,7 +6,8 @@
       :validation-schema="validationScheme"
       v-slot="{ errors }"
     >
-      <h2>Đăng nhập</h2>
+      <h2 v-if="$route.path !== '/authorize_admin'">Đăng nhập</h2>
+      <h2 v-else>Đăng nhập ADMIN</h2>
       <div class="mb-3">
         <label for="username" class="form-label">Tên đăng nhập</label>
         <field
@@ -40,7 +41,7 @@
 
       <button class="btn btn-primary" type="submit">Đăng nhập</button>
 
-      <p class="text text-dark py-2">
+      <p class="text text-dark py-2" v-if="$route.path.localeCompare('/authorize_admin') !== 0">
         Bạn chưa có tài khoản?
         <RouterLink to="/auth/register">Đăng ký ngay</RouterLink>
       </p>
@@ -99,12 +100,39 @@ export default {
         this.userStore.setAccessToken(accessToken)
 
         const res = await authService.auth()
-        this.userStore.setUser(res)
+        if (this.$route.path.localeCompare('/auth/login') === 0 && res.role === "nhanvien"){
+          this.logout()
+          throw {
+            message: 'Mật khẩu bị sai'
+          }
+        }
+        else if (this.$route.path.localeCompare('/authorize_admin') === 0 && res.role !== "nhanvien"){
+          this.logoutAdmin()
+          throw {
+            message: 'Chỉ được đăng nhập với tài khoản có quyền'
+          }
+        }
 
-        this.$router.push('/')
+        await this.userStore.setUser(res)
+        
+        if (res.role === "nhanvien")
+          this.$router.push('/admin')
+        else
+          this.$router.push('/')
       } catch (error) {
         this.$toast.error(error.message)
+        this.$router.push('/')
       }
+    },
+    logout() {
+      this.userStore.logout().then(() => {
+        this.$router.push('/auth/login')
+      })
+    },
+    logoutAdmin() {
+      this.userStore.logout().then(() => {
+        this.$router.push('/admin')
+      })
     }
   }
 }

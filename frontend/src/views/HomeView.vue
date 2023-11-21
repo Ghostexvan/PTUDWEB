@@ -3,11 +3,11 @@
     <div
       class="bg-dark py-5"
       :style="{
-        background: `url(${clotherBanner})`,
-        aspectRatio: 4,
+        background: `url(${banner})`,
+        aspectRatio: 3.5,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
-        backgroundPosition: 'center'
+        backgroundPosition: '50% 86%'
       }"
     ></div>
 
@@ -121,7 +121,7 @@ import fileService from '@/services/file.service'
 import hanghoaService from '@/services/hanghoa.service'
 import vndFormat from '@/utils/vndFormat'
 import { ref } from 'vue'
-import clotherBanner from '@/assets/images/clother-banner.jpg'
+import banner from '@/assets/images/banner.png'
 
 export default {
   name: 'HomeView',
@@ -150,7 +150,7 @@ export default {
       sortBy,
       direction,
       isSearching,
-      clotherBanner
+      banner
     }
   },
   beforeMount() {

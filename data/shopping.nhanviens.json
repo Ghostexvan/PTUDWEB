@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "655cc0d2837da7dc3f6208d6"
+  },
+  "ten": "Nguyen Phuc Vinh An",
+  "username": "b2007167",
+  "sdt": "0898525910",
+  "chucvu": "Nhan Vien",
+  "password": "$2a$10$SYhi7ib4na9LId.PXto7h.RZH.kpDEMQeVPkNDlDmyEv5rFZRS6Gu",
+  "diachi": "Can Tho",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-11-21T14:38:10.102Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-21T14:38:10.102Z"
+  },
+  "id": 1001,
+  "__v": 0
+}]

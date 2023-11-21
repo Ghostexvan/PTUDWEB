@@ -21,7 +21,7 @@
             <tbody>
               <tr>
                 <td>{{ formatTime(data.ngayDH) }}</td>
-                <td><VueDatePicker :format="format" v-model="data.ngayGH" /></td>
+                <td><VueDatePicker :format="format" v-model="data.ngayGH" :min-date="new Date()" /></td>
                 <td>{{ vndFormat(tongtien) }}</td>
                 <td>
                   <select class="form-select" v-model="data.trangThaiDH">

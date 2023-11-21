@@ -1,6 +1,7 @@
 <template>
   <div class="wrapper">
-    <AdminHeader />
+    <AppHeader />
+    <!-- <AdminHeader /> -->
     <div class="inner">
       <AdminSidebar />
       <div class="content">
@@ -11,14 +12,14 @@
 </template>
 
 <script>
-import AdminHeader from '@/components/AdminHeader.vue'
 import AdminSidebar from '@/components/AdminSidebar.vue'
+import AppHeader from '@/components/AppHeader.vue'
 import { useUserStore } from '@/stores/user'
 import { RouterView } from 'vue-router'
 
 export default {
   name: 'AdminLayout',
-  components: { RouterView, AdminHeader, AdminSidebar },
+  components: { RouterView, AppHeader, AdminSidebar },
   data() {
     const userStore = useUserStore()
     return { userStore }
@@ -29,9 +30,9 @@ export default {
     }
   },
   mounted() {
-    if (!this.isAdmin) {
-      this.$router.push('/')
-    }
+    // if (!this.isAdmin()) {
+    //   this.$router.push('/admin_authorize')
+    // }
   }
 }
 </script>

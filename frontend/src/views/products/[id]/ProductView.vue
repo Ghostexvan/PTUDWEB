@@ -50,7 +50,7 @@
           <button class="btn" disabled>Còn lại: {{ product.soluong }}</button>
         </div>
 
-        <label class="form-label">Đặt hàng</label>
+        <label class="form-label" v-if="user">Đặt hàng</label>
         <input
           class="form-control mb-2"
           placeholder="Số lượng"
@@ -58,16 +58,17 @@
           v-model="quantity"
           min="1"
           :max="product.soluong"
+          v-if="user"
         />
 
-        <a href="#" @click="addToCart" class="btn btn-secondary d-block mb-2">
+        <a href="#" @click="addToCart" class="btn btn-secondary d-block mb-2" v-if="user">
           <i class="fa fa-cart-plus"> </i>
           Thêm vào giỏ hàng
         </a>
 
-        <a href="#" class="btn btn-primary d-block" @click="buy"> Mua </a>
+        <a href="#" class="btn btn-primary d-block" @click="buy" v-if="user"> Mua </a>
 
-        <div v-if="cartItem">
+        <div v-if="cartItem && user">
           Đã có <span style="font-weight: bold">{{ cartItem.soluong }}</span> sản phẩm này trong giỏ
           hàng
         </div>
@@ -93,10 +94,12 @@ import ProductCard from '@/components/ProductCard.vue'
 import fileService from '@/services/file.service'
 import hanghoaService from '@/services/hanghoa.service'
 import { useCartStore } from '@/stores/cart'
+import { useUserStore } from '@/stores/user'
 import vndFormat from '@/utils/vndFormat'
 import { ref } from 'vue'
 
 const cartStore = useCartStore()
+const userStore = useUserStore()
 
 export default {
   name: 'ProductView',
@@ -105,8 +108,9 @@ export default {
     const imgIndex = ref(0)
     const quantity = ref(1)
     const cartItem = ref(null)
+    const user = ref(userStore.user)
     const otherProducts = ref([])
-    return { product, fileService, imgIndex, quantity, cartItem, otherProducts }
+    return { product, fileService, imgIndex, quantity, cartItem, otherProducts, user }
   },
   watch: {
     product(value) {
@@ -150,7 +154,7 @@ export default {
     buy() {
       this.addToCart()
       this.$router.push('/cart')
-    }
+    },
   },
   beforeMount() {
     this.getProductData()

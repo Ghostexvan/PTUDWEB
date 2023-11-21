@@ -24,6 +24,11 @@ const router = createRouter({
       ]
     },
     {
+      path: '/authorize_admin',
+      name: 'authorize_admin',
+      component: () => import('@/views/auth/LoginView.vue')
+    },
+    {
       path: '/cart',
       name: 'cart',
       component: () => import('@/views/cart/CartView.vue')
@@ -93,7 +98,8 @@ router.beforeEach((to, from, next) => {
     if (userStore.isAdmin()) {
       next()
     } else {
-      next({ name: 'home' })
+      userStore.logout()
+      next({ path: '/authorize_admin' })
     }
   } else {
     next()
