@@ -23,12 +23,15 @@ class HangHoaController {
 				sort[sortBy] = direction;
 			}
 			if (term) {
-				filter[searchBy] = {
-					$regex: term,
-					$options: "i",
-				};
+				if (searchBy === "gia" || searchBy === "soluong") {
+					filter[searchBy] = +term;
+				} else {
+					filter[searchBy] = {
+						$regex: term,
+						$options: "i",
+					};
+				}
 			}
-			console.log(sort);
 			const allHangHoas = await HangHoaModel.find(filter, "", {
 				skip: (page - 1) * (pageSize || 0),
 				limit: !pageSize || page * pageSize,

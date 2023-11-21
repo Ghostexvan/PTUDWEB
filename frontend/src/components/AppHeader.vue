@@ -27,12 +27,12 @@
               {{ user?.ten }}
             </button>
             <ul class="dropdown-menu" :class="{ show: showModal }">
-              <li>
+              <!-- <li>
                 <RouterLink class="dropdown-item" to="/customer">
                   <i class="fa fa-user"></i>
                   Thông tin tài khoản
                 </RouterLink>
-              </li>
+              </li> -->
               <li>
                 <a class="dropdown-item" href="#" @click="logout">
                   <i class="fa-solid fa-arrow-right-from-bracket"></i>
