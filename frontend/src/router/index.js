@@ -88,6 +88,11 @@ const router = createRouter({
           component: () => import('@/views/admin/invoices/AdminDeleteInvoice.vue')
         }
       ]
+    },
+    {
+      path: "/:pathMatch(.*)*",
+      name: "notfound",
+      component: () => import('@/views/NotFound.vue')
     }
   ]
 })
